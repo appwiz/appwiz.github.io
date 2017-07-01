@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/appwiz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://rohand.com
+  * I am appwiz (https://keybase.io/appwiz) on keybase.
+  * I have a public key with fingerprint 2801 417C 951E 6CC2 CDFF  5E78 00DE 1F23 346E 1C0F
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010170f8650356914dd8297fc32e121ca33e57cf56744a389008d4bab569af65e7210a",
+            "fingerprint": "2801417c951e6cc2cdff5e7800de1f23346e1c0f",
+            "host": "keybase.io",
+            "key_id": "00de1f23346e1c0f",
+            "kid": "010170f8650356914dd8297fc32e121ca33e57cf56744a389008d4bab569af65e7210a",
+            "uid": "d5be90ead769ffe1fabe71daea666b19",
+            "username": "appwiz"
+        },
+        "service": {
+            "hostname": "rohand.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1498948296,
+    "expire_in": 157680000,
+    "prev": "a2c7a196c3ea50c7467293f64ff752f148c1195e49a9060bba386cead2b5aa79",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.72
+Comment: https://keybase.io/crypto
+
+yMIhAnicrVJbSBRRGN5NTd0K0gJvmTYvZax5zlzOzCwZZPQQPSRW0IKxnTlzxh3U
+mdnZ0S4WSHanorJCIoNuEFJogY+BiptbUhFYUhGlDwURXSwpKKEzXZ567elw/vN9
+3/99H2d4XkYgFIxe7VveUV36Ojg62NkSiG7h0m2cZus7uUgb10h/HbRJp0kv1mjq
+XIQDEEAZGAqSgCAhFYq6rvCqbBCBp5CHBAsClWRiSEgWRSwoKgCKLmpYY2BsIInK
+PASYC3OGaTVQ13FNy2OyvAKgCGWiSpAiQniiGwbDKgDoFBq8IIiIQgIMRozbSZ/B
+zGk4SVeYNpuxS+y3vX/x/9l3yy85XdKoCijWZaQaBluJNSpDHVOMENKg6gOT1LVw
+M2Vo7DjbzV3cnjDHZq0moX6tfo4/764dx5a+gtjNjOe4tmcTu4nN457nRHyat9Px
+cdupFvujENNMS2cVMkIrdZOmbXERyJDEM31JKKqKKrKEKMzRHY7p0pjpIyQZsU4B
+8NfQVt8aT2QMVUQEiiVAZBHJvCoYSDQMWeINKCoEQlWioopVgICmsW4QYcF5TcJY
+9oMmacKymTYT9XAD00yaDRb2WlzK7RkaqM8MBEOB2Vmz/L8VCOXO//vjUntzAt2r
+phP7T3Y8d8wqu21decnbXMx/7/sy9qnDyhgpqqv+mP+gcnyovyafe3EhvbTmmJn5
+I/ww487M+LLb56PpMXr4TMF0cbwy8uyImw067tZOlORWvxrI31oYinZte1c2WXRu
+9abuQ8Fr+25PNn6YXh8eKwwNx9Zk9qTKrz8dXFBfWPwoM/Vq6vJ01dQNoqRbpKzS
+knSwmuduzf18S24fL+0dmdd74qKzuz8RrRUPtRYvKWnvPLVxdV3ZvZmjZ0lB/+N0
+zpsnDegD7R3pTmw4WHS6q+Llwp7h9q/HDwRWJuIr5+QZ9yuy337jxhdVdq69tDnV
+Ge+duL/4/c2yK6OpvEDyJ0iWN6Q=
+=nAiX
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/appwiz
+
+==================================================================
