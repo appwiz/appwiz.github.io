@@ -1,0 +1,4 @@
+- 2020-08-14: 
+  - Wrote and pushed the traditional ["Hello, world!"](https://github.com/appwiz/learning-zig/commit/036f3d64e267a9b652f4ae73afd0cdbf4fbecf34)
+  - `brew install zig` gives you version `0.6.0_1` and make sure to follow the [correct versioned documentation](https://ziglang.org/documentation/0.6.0/) else you'll run into errors where [hello.zig fails to compile](https://github.com/ziglang/zig/issues/5938).
+  - Started learning [zig](https://github.com/ziglang). 
