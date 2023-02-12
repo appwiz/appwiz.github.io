@@ -13,33 +13,42 @@
     <meta name="author" content="Rohan Deshpande">
     <style type="text/css">
         header {
-            border-bottom: 1px solid black;
-            background-color: lightgoldenrodyellow;
+            border-width: 0px 0px 1px 0px;
+            border-style: solid;
+            border-color: black;
+            background-color: palegreen;
             padding: 0.5em;
         }
 
         footer {
-            background-color: lightgoldenrodyellow;
-            border-top: 1px solid black;
+            background-color: palegreen;
+            border-width: 1px 0px 1px 0px;
+            border-style: solid;
+            border-color: black;
             padding: 0.5em;
         }
 
         body {
             margin: 0;
             font-family: sans-serif;
-            font-size: 1.25rem;
+            font-size: 1.25em;
+            color: #333;
         }
 
         section {
-            margin: 1rem;
+            margin: 0.5em;
             line-height: 1.5;
         }
 
-        ol li p {
+        section ol {
+            margin: 1em;
+        }
+
+        section ol li p {
             display: inline;
             font-size: smaller;
-            color: lightslategray;
-            padding-right: 0.4em;
+            color: #bbb;
+            padding-right: 0.5em;
         }
     </style>
     <title>Rohan Deshpande</title>
@@ -48,28 +57,30 @@
     <header>
         <strong><a target="_blank" href="index.html" title="Home">rohand.com</a></strong>
         &sdot;
-        <a target="_blank" href="https://github.com/appwiz" title="Rohan's GitHub profile - appwiz">github</a>
+        <a href="#about" title="About me">#about</a>
         &sdot;
-        <a target="_blank" href="https://twitter.com/appwiz" title="Rohan's Twitter feed - appwiz">twitter</a>
+        <a href="#links" title="Links">#links</a>
         &sdot;
-        <a target="_blank" href="https://linkedin.com/in/rohand" title="Rohan's LinkedIn account">linkedin</a>
+        <a href="#posts" title="Long form posts">#posts</a>
+        &sdot;        
+        <a rel="noopener" target="_blank" href="https://github.com/appwiz/appwiz.github.io/edit/main/index.html">edit</a>
     </header>
     <section>
-        <h2>:: about</h2>
-        <p><a target="_blank" href="https://github.com/appwiz/appwiz.github.io/edit/main/index.html">edit this page</a></p>
+        <h2 id="about">:: about</h2>
+        <p>Hi, I'm Rohan. I build things.</p><p>You can find me at <a href="https://github.com/appwiz" title="Rohan's GitHub profile - appwiz">GitHub</a>, <a href="https://twitter.com/appwiz" title="Rohan's Twitter feed - appwiz">Twitter</a>, and <a href="https://linkedin.com/in/rohand" title="Rohan's LinkedIn account">LinkedIn</a>.</p>
     </section>
     <section>
-        <h2>:: links</h2>
+        <h2 id="links">:: links</h2>
         <ol>
-            <li><p>[2023-02-11]</p><a target="_blank" href="https://htmx.org">htmx - high power tools for html</a></li>
-            <li><p>[2023-02-11]</p><a target="_blank" href="https://obyford.com">Oliver Byford's site</a> that has a pleasing design</li>
-            <li><p>[2023-02-11]</p><a target="_blank" href="https://design-system.service.gov.uk">GOV.UK design system</a></li>
-            <li><p>[2023-02-11]</p><a target="_blank" href="https://designsystem.digital.gov">United States web design system</a></li>
-            <li><p>[2023-02-11]</p><a target="_blank" href="https://lucperkins.dev/blog/service-mesh-use-cases/">Service mesh use cases</a></li>
-            <li><p>[2023-02-11]</p><a target="_blank" href="https://vlcn.io/blog/gentle-intro-to-crdts.html">A gentle introduction to CRDTs</a></li>
+            <li><p>[2023-02-11]</p><a target="_blank" rel="noopener" href="https://htmx.org">htmx - high power tools for html</a></li>
+            <li><p>[2023-02-11]</p><a target="_blank" rel="noopener" href="https://obyford.com">Oliver Byford's site</a> that has a pleasing design</li>
+            <li><p>[2023-02-11]</p><a target="_blank" rel="noopener" href="https://design-system.service.gov.uk">GOV.UK design system</a></li>
+            <li><p>[2023-02-11]</p><a target="_blank" rel="noopener" href="https://designsystem.digital.gov">United States web design system</a></li>
+            <li><p>[2023-02-11]</p><a target="_blank" rel="noopener" href="https://lucperkins.dev/blog/service-mesh-use-cases/">Service mesh use cases</a></li>
+            <li><p>[2023-02-11]</p><a target="_blank" rel="noopener" href="https://vlcn.io/blog/gentle-intro-to-crdts.html">A gentle introduction to CRDTs</a></li>
         </ol>
     </section>
-    <section>
+    <section id="posts">
         <h2>:: posts</h2>
     </section>
     <footer>
