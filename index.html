@@ -41,8 +41,9 @@
             color: #333;
         }
 
-        h2 {
+        h1 {
             color: darkgreen;
+            font-size: 1.6em;
         }
 
         section {
@@ -50,10 +51,29 @@
             line-height: 1.5;
         }
 
+        article {
+            border-top: 1px dashed lightgray;
+            padding: 0 0 1em 1.5em;
+        }
+
+        h2 {
+            margin: 0.75em 0 0 0;
+            font-size: 1.25em;
+        }
+
+        time {
+            font-size: smaller;
+            color: darkgray;
+        }
+
+        li time {
+            padding-right: 0.4em;
+        }
+
         table {
             counter-reset: tableCount;
             border-collapse: collapse;
-            max-width: 1000px;
+            max-width: 100%;
             table-layout: fixed;
         }
 
@@ -92,7 +112,7 @@
         tbody td:nth-child(4) {
             width: 30%;
             text-align: left;
-            color: #333;
+            color: darkgray;
         }
 
         .cc:before {              
@@ -115,11 +135,11 @@
         <a rel="noopener" target="_blank" href="https://github.com/appwiz/appwiz.github.io/edit/main/index.html">edit</a>
     </header>
     <section>
-        <h2 id="about">// about</h2>
-        <p>Hi, I'm <span class="highlight">Rohan</span>. I build things.</p><p>You can find me at <a href="https://github.com/appwiz" title="Rohan's GitHub profile - appwiz">GitHub</a>, <a href="https://twitter.com/appwiz" title="Rohan's Twitter feed - appwiz">Twitter</a>, and <a href="https://linkedin.com/in/rohand" title="Rohan's LinkedIn account">LinkedIn</a>.</p>
+        <h1 id="about">:: about</h1>
+        <p>Hi, I'm <span class="highlight">Rohan</span> and I'm a builder.</p><p>You can find me at <a href="https://github.com/appwiz" title="Rohan's GitHub profile - appwiz">GitHub</a>, <a href="https://twitter.com/appwiz" title="Rohan's Twitter feed - appwiz">Twitter</a>, and <a href="https://linkedin.com/in/rohand" title="Rohan's LinkedIn account">LinkedIn</a>.</p>
     </section>
     <section>
-        <h2 id="links">// links</h2>
+        <h1 id="links">:: links</h1>
         <table>
             <thead>
                 <tr>
@@ -205,7 +225,26 @@
         </table>
     </section>
     <section id="posts">
-        <h2>// posts</h2>
+        <h1>:: posts</h1>
+        <ul>
+            <li><time>2023-02-12</time><a href="#post-1">This is a sample post title.</a></li>
+            <li><time>2023-02-11</time><a href="#post-2">This is another sample post title.</a></li>
+        </ul>
+        <article>
+            <h2 id="post-1">This is a sample post title.</h2>
+            <time>2023-02-12</time>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis tellus finibus erat commodo rhoncus eu ac ante. Nulla arcu dolor, semper non cursus ut, aliquam ac odio. Duis nec vestibulum lacus. Pellentesque sed ipsum vel sem volutpat facilisis in in odio. Pellentesque fermentum, risus sed imperdiet laoreet, nibh magna commodo ex, sit amet eleifend tortor justo ornare nisi. Proin et odio congue, dictum risus vitae, imperdiet risus. Nunc mattis dignissim tellus sed dignissim. Nullam non hendrerit enim, consectetur iaculis quam. In sit amet lacus vel sapien auctor sodales. Aenean quam lectus, maximus vitae hendrerit a, mollis convallis turpis. Cras ac neque vitae neque laoreet convallis. Sed imperdiet facilisis libero, et iaculis ante hendrerit quis. Nulla facilisi.</p>
+            <p>Mauris at pulvinar mauris. Nunc blandit purus elit, eu efficitur ex sollicitudin ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et metus tempor, tempus nulla et, hendrerit risus. Phasellus et tortor vehicula, tempus ante quis, fringilla leo. In hac habitasse platea dictumst. Ut quam magna, scelerisque eget vulputate eu, tempor nec mauris.</p>
+            <p>Mauris non eros non ligula bibendum imperdiet id et arcu. Nulla eleifend ipsum ac augue rutrum fringilla. Duis nec sapien ligula. Donec eget porta dui. Cras suscipit porta fermentum. Aliquam erat volutpat. Vivamus accumsan justo sed pretium gravida.</p>
+            <a href="#posts">Back to posts</a>
+        </article>
+        <article>
+            <h2 id="post-2">This is another sample post title.</h2>
+            <time>2023-02-11</time>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis tellus finibus erat commodo rhoncus eu ac ante. Nulla arcu dolor, semper non cursus ut, aliquam ac odio. Duis nec vestibulum lacus. Pellentesque sed ipsum vel sem volutpat facilisis in in odio. Pellentesque fermentum, risus sed imperdiet laoreet, nibh magna commodo ex, sit amet eleifend tortor justo ornare nisi. Proin et odio congue, dictum risus vitae, imperdiet risus. Nunc mattis dignissim tellus sed dignissim. Nullam non hendrerit enim, consectetur iaculis quam. In sit amet lacus vel sapien auctor sodales. Aenean quam lectus, maximus vitae hendrerit a, mollis convallis turpis. Cras ac neque vitae neque laoreet convallis. Sed imperdiet facilisis libero, et iaculis ante hendrerit quis. Nulla facilisi.</p>
+            <p>Mauris non eros non ligula bibendum imperdiet id et arcu. Nulla eleifend ipsum ac augue rutrum fringilla. Duis nec sapien ligula. Donec eget porta dui. Cras suscipit porta fermentum. Aliquam erat volutpat. Vivamus accumsan justo sed pretium gravida.</p>
+            <a href="#posts">Back to posts</a>
+        </article>
     </section>
     <footer>
         <p>&copy;2005-2023 Rohan Deshpande. All rights reserved. Opinions are my own.</p>
