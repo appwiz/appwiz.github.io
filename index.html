@@ -12,6 +12,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Rohan Deshpande">
     <style type="text/css">
+        .highlight {
+            background-color: lawngreen;
+            padding: 5px;
+            border-radius: 4px;
+        }
+ 
         header {
             border-width: 0px 0px 1px 0px;
             border-style: solid;
@@ -44,17 +50,56 @@
             line-height: 1.5;
         }
 
-        section ol {
-            margin: 1em;
+        table {
+            counter-reset: tableCount;
+            border-collapse: collapse;
+            max-width: 1000px;
+            table-layout: fixed;
         }
 
-        section ol li p {
-            display: inline;
+        thead {
+            background-color: lawngreen;
+            font-weight: bold;
             font-size: smaller;
-            color: #bbb;
-            padding-right: 0.5em;
         }
-    </style>
+
+        th, td {
+            border: 1px solid lightgray;
+            padding: 10px;
+        }
+
+        tbody {
+            font-size: 0.7em;
+            text-align: center;
+            color: darkgray;
+        }
+
+        tbody td:nth-child(1) {
+            width: 5%;
+        }
+
+        tbody td:nth-child(2) {
+            width: 10%;
+            min-width: 75px;
+        }
+
+        tbody td:nth-child(3) {
+            width: 35%;
+            text-align: left;
+            font-size: larger;
+        }
+
+        tbody td:nth-child(4) {
+            width: 30%;
+            text-align: left;
+            color: #333;
+        }
+
+        .cc:before {              
+            content: counter(tableCount); 
+            counter-increment: tableCount; 
+        }
+</style>
     <title>Rohan Deshpande</title>
 </head>
 <body>
@@ -71,18 +116,93 @@
     </header>
     <section>
         <h2 id="about">// about</h2>
-        <p>Hi, I'm Rohan. I build things.</p><p>You can find me at <a href="https://github.com/appwiz" title="Rohan's GitHub profile - appwiz">GitHub</a>, <a href="https://twitter.com/appwiz" title="Rohan's Twitter feed - appwiz">Twitter</a>, and <a href="https://linkedin.com/in/rohand" title="Rohan's LinkedIn account">LinkedIn</a>.</p>
+        <p>Hi, I'm <span class="highlight">Rohan</span>. I build things.</p><p>You can find me at <a href="https://github.com/appwiz" title="Rohan's GitHub profile - appwiz">GitHub</a>, <a href="https://twitter.com/appwiz" title="Rohan's Twitter feed - appwiz">Twitter</a>, and <a href="https://linkedin.com/in/rohand" title="Rohan's LinkedIn account">LinkedIn</a>.</p>
     </section>
     <section>
         <h2 id="links">// links</h2>
-        <ol>
-            <li><p>[2023-02-11]</p><a target="_blank" rel="noopener" href="https://htmx.org">htmx - high power tools for html</a></li>
-            <li><p>[2023-02-11]</p><a target="_blank" rel="noopener" href="https://obyford.com">Oliver Byford's site</a> that has a pleasing design</li>
-            <li><p>[2023-02-11]</p><a target="_blank" rel="noopener" href="https://design-system.service.gov.uk">GOV.UK design system</a></li>
-            <li><p>[2023-02-11]</p><a target="_blank" rel="noopener" href="https://designsystem.digital.gov">United States web design system</a></li>
-            <li><p>[2023-02-11]</p><a target="_blank" rel="noopener" href="https://lucperkins.dev/blog/service-mesh-use-cases/">Service mesh use cases</a></li>
-            <li><p>[2023-02-11]</p><a target="_blank" rel="noopener" href="https://vlcn.io/blog/gentle-intro-to-crdts.html">A gentle introduction to CRDTs</a></li>
-        </ol>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>date</th>
+                    <th>link</th>
+                    <th>comments</th>
+                    <th>tags</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="cc"></td>
+                    <td>2023-02-12</td>
+                    <td><a target="_blank" rel="noopener" href="https://crdt.tech">Conflict-free replicated data types</a></td>
+                    <td></td>
+                    <td>#crdt</td>
+                </tr>
+                <tr>
+                    <td class="cc"></td>
+                    <td>2023-02-12</td>
+                    <td><a target="_blank" rel="noopener" href="https://devopedia.org/transpiler">Transpilers</a></td>
+                    <td>Description of transpilers and comparison with compilers</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="cc"></td>
+                    <td>2023-02-12</td>
+                    <td><a target="_blank" rel="noopener" href="https://git-scm.com/docs/gitrepository-layout">Git repository layout</a></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="cc"></td>
+                    <td>2023-02-12</td>
+                    <td><a target="_blank" rel="noopener" href="https://secretindianrecipe.com">Secret Indian recipes</a></td>
+                    <td></td>
+                    <td>#food</td>
+                </tr>
+                <tr>
+                    <td class="cc"></td>
+                    <td>2023-02-11</td>
+                    <td><a target="_blank" rel="noopener" href="https://htmx.org">htmx - high power tools for html</a></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="cc"></td>
+                    <td>2023-02-11</td>
+                    <td><a target="_blank" rel="noopener" href="https://obyford.com">Oliver Byford's site</a></td>
+                    <td>I like this site design. Clean and structured.</td>
+                    <td>#design</td>
+                </tr>
+                <tr>
+                    <td class="cc"></td>
+                    <td>2023-02-11</td>
+                    <td><a target="_blank" rel="noopener" href="https://design-system.service.gov.uk">GOV.UK design system</a></td>
+                    <td></td>
+                    <td>#design</td>
+                </tr>
+                <tr>
+                    <td class="cc"></td>
+                    <td>2023-02-11</td>
+                    <td><a target="_blank" rel="noopener" href="https://designsystem.digital.gov">United States web design system</a></td>
+                    <td></td>
+                    <td>#design</td>
+                </tr>
+                <tr>
+                    <td class="cc"></td>
+                    <td>2023-02-11</td>
+                    <td><a target="_blank" rel="noopener" href="https://lucperkins.dev/blog/service-mesh-use-cases/">Service mesh use cases</a></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="cc"></td>
+                    <td>2023-02-11</td>
+                    <td><a target="_blank" rel="noopener" href="https://vlcn.io/blog/gentle-intro-to-crdts.html">A gentle introduction to CRDTs</a></td>
+                    <td></td>
+                    <td>#crdt</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
     <section id="posts">
         <h2>// posts</h2>
