@@ -17,6 +17,12 @@
             padding: 5px;
             border-radius: 4px;
         }
+
+        .inline-nav {
+            font-size: smaller;
+            font-style: italic;
+            padding-bottom: 5px;
+        }
  
         header {
             background-color: lawngreen;
@@ -58,7 +64,6 @@
 
         article {
             border-top: 1px dashed lightgray;
-            padding: 0 0 1em 1.5em;
         }
 
         time {
@@ -92,7 +97,7 @@
     <title>Rohan Deshpande</title>
 </head>
 <body>
-    <header>
+    <header id="top">
         <strong><a target="_blank" href="index.html" title="Home">rohand.com</a></strong>
         &sdot;
         <a href="#about" title="About me">about</a>
@@ -153,6 +158,7 @@
                 <div><time>2023-02-11</time><p>#crdt</p></div>
             </li>
         </ol>
+        <p class="inline-nav">Back to <a href="#top">top</a> &sdot; <a href="#links">links</a></p>
     </section>
     <section id="posts">
         <h1>:: posts</h1>
@@ -160,20 +166,21 @@
             <li><time>2023-02-12</time><a href="#post-1">This is a sample post title.</a></li>
             <li><time>2023-02-11</time><a href="#post-2">This is another sample post title.</a></li>
         </ul>
+        <p class="inline-nav">Back to <a href="#top">top</a></p>
         <article>
             <h2 id="post-1">This is a sample post title.</h2>
             <time>2023-02-12</time>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis tellus finibus erat commodo rhoncus eu ac ante. Nulla arcu dolor, semper non cursus ut, aliquam ac odio. Duis nec vestibulum lacus. Pellentesque sed ipsum vel sem volutpat facilisis in in odio. Pellentesque fermentum, risus sed imperdiet laoreet, nibh magna commodo ex, sit amet eleifend tortor justo ornare nisi. Proin et odio congue, dictum risus vitae, imperdiet risus. Nunc mattis dignissim tellus sed dignissim. Nullam non hendrerit enim, consectetur iaculis quam. In sit amet lacus vel sapien auctor sodales. Aenean quam lectus, maximus vitae hendrerit a, mollis convallis turpis. Cras ac neque vitae neque laoreet convallis. Sed imperdiet facilisis libero, et iaculis ante hendrerit quis. Nulla facilisi.</p>
             <p>Mauris at pulvinar mauris. Nunc blandit purus elit, eu efficitur ex sollicitudin ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et metus tempor, tempus nulla et, hendrerit risus. Phasellus et tortor vehicula, tempus ante quis, fringilla leo. In hac habitasse platea dictumst. Ut quam magna, scelerisque eget vulputate eu, tempor nec mauris.</p>
             <p>Mauris non eros non ligula bibendum imperdiet id et arcu. Nulla eleifend ipsum ac augue rutrum fringilla. Duis nec sapien ligula. Donec eget porta dui. Cras suscipit porta fermentum. Aliquam erat volutpat. Vivamus accumsan justo sed pretium gravida.</p>
-            <a href="#posts">Back to posts</a>
+            <p class="inline-nav">Back to <a href="#top">top</a> &sdot; <a href="#posts">posts</a></p>
         </article>
         <article>
             <h2 id="post-2">This is another sample post title.</h2>
             <time>2023-02-11</time>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis tellus finibus erat commodo rhoncus eu ac ante. Nulla arcu dolor, semper non cursus ut, aliquam ac odio. Duis nec vestibulum lacus. Pellentesque sed ipsum vel sem volutpat facilisis in in odio. Pellentesque fermentum, risus sed imperdiet laoreet, nibh magna commodo ex, sit amet eleifend tortor justo ornare nisi. Proin et odio congue, dictum risus vitae, imperdiet risus. Nunc mattis dignissim tellus sed dignissim. Nullam non hendrerit enim, consectetur iaculis quam. In sit amet lacus vel sapien auctor sodales. Aenean quam lectus, maximus vitae hendrerit a, mollis convallis turpis. Cras ac neque vitae neque laoreet convallis. Sed imperdiet facilisis libero, et iaculis ante hendrerit quis. Nulla facilisi.</p>
             <p>Mauris non eros non ligula bibendum imperdiet id et arcu. Nulla eleifend ipsum ac augue rutrum fringilla. Duis nec sapien ligula. Donec eget porta dui. Cras suscipit porta fermentum. Aliquam erat volutpat. Vivamus accumsan justo sed pretium gravida.</p>
-            <a href="#posts">Back to posts</a>
+            <p class="inline-nav">Back to <a href="#top">top</a> &sdot; <a href="#posts">posts</a></p>
         </article>
     </section>
     <footer>
