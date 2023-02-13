@@ -19,10 +19,10 @@
         }
  
         header {
+            background-color: lawngreen;
             border-width: 0px 0px 1px 0px;
             border-style: solid;
             border-color: black;
-            background-color: lawngreen;
             padding: 0.5em;
         }
 
@@ -46,6 +46,11 @@
             font-size: 1.6em;
         }
 
+        h2 {
+            margin: 0.75em 0 0 0;
+            font-size: 1.25em;
+        }
+
         section {
             margin: 0.5em;
             line-height: 1.5;
@@ -56,70 +61,34 @@
             padding: 0 0 1em 1.5em;
         }
 
-        h2 {
-            margin: 0.75em 0 0 0;
-            font-size: 1.25em;
-        }
-
         time {
-            font-size: smaller;
+            padding-right: 1em;
             color: darkgray;
         }
 
-        li time {
-            padding-right: 0.4em;
+        li {
+            padding-bottom: 1em;
+            font-size: smaller;
         }
 
-        table {
-            counter-reset: tableCount;
-            border-collapse: collapse;
-            max-width: 100%;
-            table-layout: fixed;
+        li p {
+            display: inline;
         }
 
-        thead {
-            background-color: lawngreen;
+        li p a {
             font-weight: bold;
-            font-size: smaller;
-        }
-
-        th, td {
-            border: 1px solid lightgray;
-            padding: 10px;
-        }
-
-        tbody {
-            font-size: 0.7em;
-            text-align: center;
-            color: darkgray;
-        }
-
-        tbody td:nth-child(1) {
-            width: 5%;
-        }
-
-        tbody td:nth-child(2) {
-            width: 10%;
-            min-width: 75px;
-        }
-
-        tbody td:nth-child(3) {
-            width: 35%;
-            text-align: left;
             font-size: larger;
         }
 
-        tbody td:nth-child(4) {
-            width: 30%;
-            text-align: left;
+        li div {
             color: darkgray;
+            font-size: 0.75em;
         }
 
-        .cc:before {              
-            content: counter(tableCount); 
-            counter-increment: tableCount; 
+        article time {
+            font-size: smaller;
         }
-</style>
+    </style>
     <title>Rohan Deshpande</title>
 </head>
 <body>
@@ -140,89 +109,50 @@
     </section>
     <section>
         <h1 id="links">:: links</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>date</th>
-                    <th>link</th>
-                    <th>comments</th>
-                    <th>tags</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="cc"></td>
-                    <td>2023-02-12</td>
-                    <td><a target="_blank" rel="noopener" href="https://crdt.tech">Conflict-free replicated data types</a></td>
-                    <td></td>
-                    <td>#crdt</td>
-                </tr>
-                <tr>
-                    <td class="cc"></td>
-                    <td>2023-02-12</td>
-                    <td><a target="_blank" rel="noopener" href="https://devopedia.org/transpiler">Transpilers</a></td>
-                    <td>Description of transpilers and comparison with compilers</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="cc"></td>
-                    <td>2023-02-12</td>
-                    <td><a target="_blank" rel="noopener" href="https://git-scm.com/docs/gitrepository-layout">Git repository layout</a></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="cc"></td>
-                    <td>2023-02-12</td>
-                    <td><a target="_blank" rel="noopener" href="https://secretindianrecipe.com">Secret Indian recipes</a></td>
-                    <td></td>
-                    <td>#food</td>
-                </tr>
-                <tr>
-                    <td class="cc"></td>
-                    <td>2023-02-11</td>
-                    <td><a target="_blank" rel="noopener" href="https://htmx.org">htmx - high power tools for html</a></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="cc"></td>
-                    <td>2023-02-11</td>
-                    <td><a target="_blank" rel="noopener" href="https://obyford.com">Oliver Byford's site</a></td>
-                    <td>I like this site design. Clean and structured.</td>
-                    <td>#design</td>
-                </tr>
-                <tr>
-                    <td class="cc"></td>
-                    <td>2023-02-11</td>
-                    <td><a target="_blank" rel="noopener" href="https://design-system.service.gov.uk">GOV.UK design system</a></td>
-                    <td></td>
-                    <td>#design</td>
-                </tr>
-                <tr>
-                    <td class="cc"></td>
-                    <td>2023-02-11</td>
-                    <td><a target="_blank" rel="noopener" href="https://designsystem.digital.gov">United States web design system</a></td>
-                    <td></td>
-                    <td>#design</td>
-                </tr>
-                <tr>
-                    <td class="cc"></td>
-                    <td>2023-02-11</td>
-                    <td><a target="_blank" rel="noopener" href="https://lucperkins.dev/blog/service-mesh-use-cases/">Service mesh use cases</a></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="cc"></td>
-                    <td>2023-02-11</td>
-                    <td><a target="_blank" rel="noopener" href="https://vlcn.io/blog/gentle-intro-to-crdts.html">A gentle introduction to CRDTs</a></td>
-                    <td></td>
-                    <td>#crdt</td>
-                </tr>
-            </tbody>
-        </table>
+        <ol>
+            <li>
+                <p><a target="_blank" rel="noopener" href="https://crdt.tech">Conflict-free replicated data types</a></p>
+                <div><time>2023-02-12</time><p>#crdt</p></div>
+            </li>
+            <li>
+                <p><a target="_blank" rel="noopener" href="https://devopedia.org/transpiler">Transpilers</a></p>
+                <div><time>2023-02-12</time></div>
+                <p>Description of transpilers and comparison with compilers</p>
+            </li>
+            <li>
+                <p><a target="_blank" rel="noopener" href="https://git-scm.com/docs/gitrepository-layout">Git repository layout</a></p>
+                <div><time>2023-02-12</time></div>
+            </li>
+            <li>
+                <p><a target="_blank" rel="noopener" href="https://secretindianrecipe.com">Secret Indian recipes</a></p>
+                <div><time>2023-02-12</time><p>#food</p></div>
+            </li>
+            <li>
+                <p><a target="_blank" rel="noopener" href="https://htmx.org">htmx - high power tools for html</a></p>
+                <div><time>2023-02-11</time></div>
+            </li>
+            <li>
+                <p><a target="_blank" rel="noopener" href="https://obyford.com">Oliver Byford's site</a></p>
+                <div><time>2023-02-11</time><p>#design</p></div>
+                <p>I like this site design. Clean and structured.</p>
+            </li>
+            <li>
+                <p><a target="_blank" rel="noopener" href="https://design-system.service.gov.uk">GOV.UK design system</a></p>
+                <div><time>2023-02-11</time><p>#design</p></div>
+            </li>
+            <li>
+                <p><a target="_blank" rel="noopener" href="https://designsystem.digital.gov">United States web design system</a></p>
+                <div><time>2023-02-11</time><p>#design</p></div>
+            </li>
+            <li>
+                <p><a target="_blank" rel="noopener" href="https://lucperkins.dev/blog/service-mesh-use-cases/">Service mesh use cases</a></p>
+                <div><time>2023-02-11</time></div>
+            </li>
+            <li>
+                <p><a target="_blank" rel="noopener" href="https://vlcn.io/blog/gentle-intro-to-crdts.html">A gentle introduction to CRDTs</a></p>
+                <div><time>2023-02-11</time><p>#crdt</p></div>
+            </li>
+        </ol>
     </section>
     <section id="posts">
         <h1>:: posts</h1>
