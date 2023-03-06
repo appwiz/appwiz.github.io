@@ -4,20 +4,17 @@ import { SITE_TITLE } from '../consts';
 ---
 
 <header>
-	<h2>
-		{SITE_TITLE}
-	</h2>
 	<nav>
-		<HeaderLink href="/">Home</HeaderLink>
-		<HeaderLink href="/blog">Blog</HeaderLink>
-		<HeaderLink href="/about">About</HeaderLink>
-		<HeaderLink href="https://twitter.com/astrodotbuild" target="_blank">Twitter</HeaderLink>
-		<HeaderLink href="https://github.com/withastro/astro" target="_blank">GitHub</HeaderLink>
+		<HeaderLink href="/">{SITE_TITLE}</HeaderLink>
+		<HeaderLink href="https://twitter.com/appwiz" target="_blank">twitter</HeaderLink>
+		<HeaderLink href="https://github.com/appwiz" target="_blank">github</HeaderLink>
+		<HeaderLink href="https://www.linkedin.com/in/rohand" target="_blank">linkedin</HeaderLink>
 	</nav>
 </header>
 <style>
 	header {
-		margin: 0em 0 2em;
+		padding-bottom: 1em;
+		border-bottom: 1px solid #eee;
 	}
 	h2 {
 		margin: 0.5em 0;
