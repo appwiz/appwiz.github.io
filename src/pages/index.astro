@@ -37,10 +37,9 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			<p>Hi, I'm Rohan Deshpande.</p>
-			<p>This site is built with <a href="https://astro.build">astro</a>.</p>
+			<p>Hi, I'm Rohan Deshpande. This site is built with <a href="https://astro.build">astro</a>.</p>
 			<section>
-				<h2>posts</h2>
+				<h2>--</h2>
 				<ul>
 					{
 						posts.map((post) => (
@@ -48,7 +47,7 @@ const posts = (await getCollection('blog')).sort(
 								<FormattedDate date={post.data.pubDate} />
 								<a href={`/blog/${post.slug}/`}>{post.data.title}</a>
 							</li>
-						))
+						)).reverse()
 					}
 				</ul>
 			</section>
