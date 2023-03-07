@@ -11,6 +11,6 @@ export async function get(context) {
 		items: posts.map((post) => ({
 			...post.data,
 			link: `/blog/${post.slug}/`,
-		})),
+		})).reverse(),
 	});
 }
