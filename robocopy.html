@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>rohand.com</title>
+    <meta name="author" content="Rohan Deshpande">
+    <meta name="title" content="rohand.com">
+    <meta name="template" content="tp">
+</head>
+<body>
+    <header>
+        <a href="index.html">home</a>
+        <a href="https://github.com/appwiz">github</a>
+        <a href="https://twitter.com/appwiz">twitter</a>
+        <a href="https://www.linkedin.com/in/rohand/">linkedin</a>
+        <hr />
+    </header>
+    <section>
+        <article>
+            <h1>robocopy</h1>
+            <p><a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy?redirectedfrom=MSDN">robocopy</a> is a Windows command line utility to copy files and folders. I use it to backup my Windows profile using the following command. Run this command within an Administrator prompt since it requires an account with <a href="https://learn.microsoft.com/en-us/windows/win32/secauthz/privilege-constants?redirectedfrom=MSDN">SeBackupPrivilege</a>.</p>
+
+            <p><pre>robocopy %HOMEPATH% %BACKUPROOT%%HOMEPATH% /E /S /XJ /ZB /MT:16</pre></p>
+        </article>
+    </section>
+    <footer>
+        <hr />
+        <p>&copy; 2005-2023 Rohan Deshpande. All rights reserved.</p>
+    </footer>
+</body>
+</html>
