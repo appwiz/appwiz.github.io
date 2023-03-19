@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>rohand.com</title>
+    <meta name="author" content="Rohan Deshpande">
+    <meta name="title" content="rohand.com">
+</head>
+<body>
+    <header>
+        <a href="index.html">home</a>
+        <a href="https://github.com/appwiz">github</a>
+        <a href="https://twitter.com/appwiz">twitter</a>
+        <a href="https://www.linkedin.com/in/rohand/">linkedin</a>
+        <hr />
+    </header>
+    <section>
+        <article>
+            <h1>Quickly extract all links with timestamp from a HackerNews page</h1>
+            <p>Here's a quick script I wrote to get all links along with the associated link title and timestamp from a HackerNews page and print out a CSV. I use it within the browser developer tools Javascript console.</p>
+            <p><pre>
+var size =  document.getElementsByClassName("athing").length;
+var line = "";
+for (i = 0; i < size; i++) {
+    var title = document.getElementsByClassName("athing")[i].getElementsByClassName("titleline")[0].getElementsByTagName("a")[0].innerText;
+    var url = document.getElementsByClassName("athing")[i].getElementsByClassName("titleline")[0].getElementsByTagName("a")[0].href;
+    var date = document.getElementsByClassName("athing")[0].nextSibling.getElementsByClassName("age")[0].title;
+
+    line = line.concat("\"", date, "\"").concat(",\"", url, "\"").concat(",\"", title, "\"").concat("\n");
+};
+console.log(line);
+            </pre></p>
+        </article>
+    </section>
+    <footer>
+        <hr />
+        <p>&copy; 2005-2023 Rohan Deshpande. All rights reserved.</p>
+    </footer>
+</body>
+</html>
