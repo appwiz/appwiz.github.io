@@ -19,7 +19,6 @@ def read_csv(filename):
     with open(filename, 'r') as f:
         return f.readlines()
 
-# read all lines in file as a single string
 def read_file(filename):
     with open(filename, 'r') as f:
         return f.read()
