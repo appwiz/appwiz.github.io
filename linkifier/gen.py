@@ -30,6 +30,8 @@ def main(filename='input.csv'):
 
     o = []
     for line in lines:
+        print(line)
+        
         if line.startswith('#'):
             continue
 

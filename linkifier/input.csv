@@ -1,93 +1,158 @@
 # "url","title",slug
-"https://techiedelight.quora.com/500-Data-structures-and-algorithms-interview-questions-and-their-solutions","Data structures and algorithms interview questions and their solutions",500-Data-structures-and-algorithms-interview-questions-and-their-solutions
-"https://www.bloomberg.com/news/features/2017-08-30/how-nakaya-pens-anticipated-the-writing-tool-renaissance","A Japanese Pen Maker Anticipated the Fountain-Pen Renaissance",how-nakaya-pens-anticipated-the-writing-tool-renaissance
-"http://cs.brown.edu/courses/csci2952-a/papers/perspective.pdf","Blockchains from a Distributed Computing Perspective",blockhains-distributed-computing-perspective
-"http://danshipper.com/public-speaking-for-introverts","Public speaking for introverts",public-speaking-for-introverts
-"http://highline.huffingtonpost.com/articles/en/lotto-winners/","The Lottery Hackers",lotto-winners
-"https://anvil.works/blog/one-yc-startup-a-day","Prototyping a YC Startup Each Day",one-yc-startup-a-day
-"https://azure.microsoft.com/en-us/resources/designing-distributed-systems/en-us/","Designing Distributed Systems E-Book",designing-distributed-systems
-"https://blog.ycombinator.com/one-order-of-operations-for-starting-a-startup/","One Order of Operations for Starting a Startup",one-order-of-operations-for-starting-a-startup
-"https://blog.ycombinator.com/ycs-series-a-diligence-checklist/","YC's Series A Diligence Checklist",ycs-series-a-diligence-checklist
-"https://courses.engr.illinois.edu/cs525/sp2018/index.html","Advanced Distributed Systems",advanced-distributed-systems
-"https://developers.google.com/machine-learning/crash-course/","Machine Learning Crash Course",ml-crash-course
-"https://github.com/automerge/automerge","Automerge: JSON-like data structure for building collaborative apps",automerge
-"https://javascriptreport.com/the-ultimate-guide-to-javascript-frameworks/","Guide to JavaScript Frameworks",the-ultimate-guide-to-javascript-frameworks
-"https://justinkan.com/the-founders-guide-to-selling-your-company-a1b2025c9481","The Founder’s Guide To Selling Your Company (2014)",the-founders-guide-to-selling-your-company
-"https://medium.com/@gsvpioneer/what-i-learned-from-reading-every-amazon-shareholders-letter-cdc35f309e8b","What I Learned from Reading Every Amazon Shareholders Letter",what-i-learned-from-reading-every-amazon-shareholders-letter
-"https://stripe.com/atlas/guides/business-of-saas","The Business of SaaS",business-of-saas
-"https://techcrunch.com/2018/03/31/tapsters-robots-are-built-to-poke-touchscreens","Tapster’s robots are built to poke touchscreens",tapsters-robots-are-built-to-poke-touchscreens
-"https://time2hack.com/2018/02/introduction-quick-guide-to-graphql-for-backend-frontend/","Introduction and Quick Guide to GraphQL for BackEnd and FrontEnd",introduction-quick-guide-to-graphql-for-backend-frontend
-"https://www.nytimes.com/2018/01/16/magazine/beyond-the-bitcoin-bubble.html","Beyond the Bitcoin bubble",beyond-the-bitcoin-bubble
-"https://yageek.github.io/blog/2018/02/19/a-taste-of-core-data-0-a-graph-framework/","A taste of CoreData – A graph framework",a-taste-of-core-data-0-a-graph-framework
-"http://archagon.net/blog/2018/09/03/good-spirits-persisting-data-statelessly/","'Stateless' sync using version vectors",stateless-sync-with-version-vectors
-"http://createyourproglang.com/","Create Your Own Programming Language",create-your-own-programming-language
-"http://dtrace.org/blogs/bmc/2018/09/18/falling-in-love-with-rust/","Falling in love with Rust",falling-in-love-with-rust
-"http://jamie-wong.com/post/color/","Color: From Hex codes to Eyeballs",color-hex-codes-eyeballs
-"https://arxiv.org/abs/1808.03156","One Billion Apples’ Secret Sauce: Recipe for Apple Wireless Direct Link Protocol",arxiv-1808-03156
-"https://arxiv.org/abs/1810.02137","Real Differences Between OT and CRDT for Co-Editors",arxiv-1810-02137
-"https://blog.cloudflare.com/distributed-web-gateway/","Introducing Cloudflare’s IPFS Gateway",cloudflare-distributed-web-gateway
-"https://ckeditor.com/blog/Lessons-learned-from-creating-a-rich-text-editor-with-real-time-collaboration/","Lessons learned from creating a real-time collaborative rich-text editor",Lessons-learned-from-creating-a-rich-text-editor-with-real-time-collaboration
-"https://commoncog.com/blog/so-good-they-cant-ignore-you/","So Good They Can't Ignore You",so-good-they-cant-ignore-you
-"https://github.com/rianhunter/wasmjit","Wasmjit: Kernel Mode WebAssembly Runtime for Linux",wasmjit
-"https://github.com/simongog/sdsl-lite","SDSL – Succinct Data Structure Library 2.0",sdsl-lite
-"https://iamjamesward.com/2009/08/18/my-life-in-pens-part-1/","My Life in Pens (2009)",my-life-in-pens-part-1
-"https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/","How to teach yourself hard things",learning-skills-you-can-practice
-"https://refactoringui.com/previews/building-your-color-palette/","Building your color palette",building-your-color-palette
-"https://www.cortes.design/post/best-saas-landing-page-examples-inspiration","I've compiled the best SaaS Landing pages and broke down all their secrets",best-saas-landing-page-examples-inspiration
-"https://www.fivecastfinancial.com/guides/financial-modeling-for-startups-an-introduction/","Financial Modeling for Startups: An Introduction",financial-modeling-for-startups-an-introduction
-"https://www.independent.co.uk/life-style/fall-asleep-two-minutes-how-to-military-secret-trick-a8520991.html","A military technique for falling asleep in two minutes",fall-asleep-two-minutes-how-to-military-secret-trick
-"https://zen-of-programming.com/design","A Web Design Crash Course: From Developer to Developer",web-design-crash-course
-"http://blog.jamesdbloom.com/JVMInternals.html","JVM Internals",jvm-internals
-"http://nickgravgaard.com/elastic-tabstops/","Elastic TabStops: A Better Way to Indent and Align Code",elastic-tabstops
-"http://www.emulator101.com/","Learn how to write an emulator",write-an-emulator
-"https://blog.graphql.guide/introducing-the-graphql-guide-11a5ae48628a","John Resig: Introducing the GraphQL Guide",introducing-the-graphql-guide
-"https://blog.subnetzero.io/post/building-language-vm-part-00/","Build a VM step by step with Rust",building-language-vm-part-00
-"https://brandur.org/graphql","Living APIs and the Case for GraphQL",living-apis-graphql
-"https://engineering.gusto.com/how-my-role-as-cto-has-changed-as-weve-grown-to-100-engineers/","How my role as CTO has changed as we've grown from 1 to 100 engineers",how-my-role-as-cto-has-changed-as-weve-grown-to-100-engineers
-"https://getweeklyupdate.com/manager-guide","How to be a Manager – A step-by-step guide to leading a team",manager-guide
-"https://github.com/cliqz-oss/local-sheriff","Local Sheriff – Browser extension to show PII leaks to third-parties",local-sheriff
-"https://github.com/donnemartin/system-design-primer","Learn how to design large-scale systems",system-design-primer
-"https://github.com/google/xi-editor/blob/e8065a3993b80af0aadbca0e50602125d60e4e38/doc/crdt-details.md","The Xi Text Engine CRDT",xi-crdt-details
-"https://github.com/kay-is/react-from-zero","React from zero: a simple tutorial for React",react-from-zero
-"https://medium.com/lapsed-historian/the-long-way-round-the-plane-that-accidentally-circumnavigated-the-world-c04ca734c6bb","A Plane That Accidentally Circumnavigated the World",the-long-way-round-the-plane-that-accidentally-circumnavigated-the-world
-"https://multimedia.scmp.com/culture/article/spanish-galleon/chapter_01.html","The China Ship",the-china-ship
-"https://pudding.cool/2018/02/stand-up/","The Structure of Stand-Up Comedy",structure-of-stand-up-comedy
-"https://www.interviewcake.com/data-structures-reference","Data Structures Reference",data-structures-reference
-"https://www.pnfsoftware.com/reversing-wasm.pdf","Reverse-Engineering WebAssembly",reversing-wasm.pdf
-"http://christophermeiklejohn.com/erlang/lasp/2019/03/08/monotonicity.html","Applied Monotonicity: A Brief History of CRDTs in Riak",applied-monotonicity-riak
-"http://kevincuzner.com/2014/12/12/teensy-3-1-bare-metal-writing-a-usb-driver/","Teensy 3.1 bare metal: Writing a USB driver",teensy-3-1-bare-metal-writing-a-usb-driver
-"https://0x46.net/thoughts/2019/02/01/dotfile-madness/","Dotfile madness",dotfile-madness
-"https://arxiv.org/abs/1410.6753","The symmetry and simplicity of the laws of physics and the Higgs boson",arxiv-1410-6753
-"https://blog.acolyer.org/2019/03/08/a-generalised-solution-to-distributed-consensus/","A generalised solution to distributed consensus",a-generalised-solution-to-distributed-consensus
-"https://blog.adamant-lang.org/2019/dreaming-of-a-parser-generator/","Dreaming of a Parser Generator for Language Design",dreaming-of-a-parser-generator
-"https://github.com/minimaxir/big-list-of-naughty-strings","Big List of Naughty Strings",big-list-of-naughty-strings
-"https://github.com/wasmerio/wasmer","Universal Binaries Using WASM",universal-binaries-wasmer
-"https://media.defense.gov/2018/Oct/09/2002049591/-1/-1/0/DIB_DETECTING_AGILE_BS_2018.10.05.PDF","DIB Guide: Detecting Agile BS",detecting-agile-bs
-"https://pacman128.github.io/pcasm/","PC Assembly Book",pc-assembly-book
-"https://playbook.samaltman.com/","Sam Altman's Startup Playbook",playbook-samaltman-com
-"https://queue.acm.org/detail.cfm?id=2169076","A Mouse is a Database",mouse-is-a-database
-"https://www.brianstorti.com/replication/","A Primer on Database Replication",database-replication
-"https://www.cubui.com/design/user-interface/my-top-10-free-font-superfamilies/","My Top Free Font Superfamilies",my-top-10-free-font-superfamilies
-"https://www.forrestthewoods.com/blog/learning-rust-via-advent-of-code/","Learning Rust via Advent of Code",learning-rust-via-advent-of-code
-"https://www.institutionalinvestor.com/article/b1db3jy3201d38/The-MBA-Myth-and-the-Cult-of-the-CEO","The MBA Myth and the Cult of the CEO",The-MBA-Myth-and-the-Cult-of-the-CEO
-"https://www.joshmcguigan.com/blog/build-your-own-shell-rust/","Building your own shell using Rust",build-your-own-shell-rust
-"https://www.nand2tetris.org/","From Nand to Tetris: Building a Modern Computer from First Principles",nand-2-tetris
-"https://www.rust-lang.org/static/pdfs/Rust-npm-Whitepaper.pdf","Case Study: Npm uses Rust for its CPU-bound bottlenecks",Rust-npm-paper
-"http://nautil.us/issue/19/illusions/five-ways-to-lie-with-charts","Ways to Lie with Charts",five-ways-to-lie-with-charts
-"https://blog.pragmaticengineer.com/on-writing-well/","Undervalued Engineering Skills: Writing Well",on-writing-well
-"https://blogs.scientificamerican.com/roots-of-unity/why-isnt-1-a-prime-number/","Why isn't 1 a prime number?",why-isnt-1-a-prime-number
-"https://chess.stackexchange.com/questions/75/very-aggressive-openings","Aggressive Chess Openings",very-aggressive-openings
-"https://courses.csail.mit.edu/6.851/fall17/","Advanced Data Structures",advanced-data-structures
-"https://github.com/intel/wasm-micro-runtime","WebAssembly Micro Runtime",wasm-micro-runtime
-"https://juretriglav.si/open-source-collaborative-text-editors/","Open source collaborative text editors",open-source-collaborative-text-editors
-"https://llimllib.github.io/bloomfilter-tutorial/","Bloom Filters by Example",bloomfilter-tutorial
-"https://ruslanspivak.com/lsbasi-part14/","Let's Build a Simple Interpreter. Part 14: Nested Scopes",lsbasi-part14
-"https://techcrunch.com/2019/04/13/how-do-startups-actually-get-their-content-marketing-to-work/","How do startups get their content marketing to work?",how-do-startups-actually-get-their-content-marketing-to-work
-"https://vcstarterkit.com/","VC Starter Kit",vc-starter-kit
-"https://www.defmacro.org/2019/03/26/startup-checklist.html","Startup idea checklist",startup-idea-checklist
-"https://www.kalzumeus.com/2019/6/26/how-brokerages-make-money/","How Discount Brokerages Make Money",how-brokerages-make-money
-"https://www.nytimes.com/2019/04/27/nyregion/new-york-city-record-newspaper.html","The bible of doing business with the city of New York",new-york-city-record-newspaper
-"https://www.nytimes.com/interactive/2019/03/20/magazine/train-across-america-amtrak.html","There is no reason to cross the U.S. by train",train-across-america-amtrak
-"https://www.pierrehedkvist.com/posts/1-creating-a-collaborative-editor","Creating a Collaborative Editor",creating-a-collaborative-editor
-"https://www.thenewatlantis.com/publications/do-elephants-have-souls","Do Elephants Have Souls?",do-elephants-have-souls
-"https://www.wired.com/2015/04/silk-road-1/","The Untold Story of Silk Road",silk-road-1
+"https://xmonader.github.io/letsbuildacompiler-pretty/","Let's Build a Compiler",lets-build-a-compiler-pretty
+"http://blog.nuclearsecrecy.com/2014/05/23/oppenheimer-gita/","Oppenheimer and the Gita",oppenheimer-gita
+"http://www.moserware.com/2008/05/who-is-this-licklider-guy.html","Who Is This 'Licklider' Guy?",who-is-this-licklider-guy
+"http://www.newyorker.com/magazine/2015/07/20/the-really-big-one","The Really Big One",the-really-big-one
+"https://bellard.org/quickjs/","QuickJS JavaScript Engine",quickjs-engine
+"https://blog.aurity.co/how-to-recognize-the-real-senior-developer-d7e107ce6ddc","How to Recognize the Real Senior Developer?",how-to-recognize-the-real-senior-developer
+"https://blog.benjojo.co.uk/post/userspace-usb-drivers","Writing userspace USB drivers for abandoned devices",userspace-usb-drivers
+"https://broadcast.listennotes.com/the-boring-technology-behind-listen-notes-56697c2e347b","The boring technology behind a one-person Internet company",the-boring-technology-behind-listen-one-person-company
+"https://ciechanow.ski/earth-and-sun/","Earth and Sun",earth-and-sun
+"https://emmasmith.me/tinyland/","Tinyland",tinyland
+"https://generalproblem.net/lets_build_a_compiler/01-starting-out/","Let's Build a Compiler",lets-build-a-compiler
+"https://github.com/firmai/machine-learning-asset-management","Stock trading strategies using machine learning",machine-learning-asset-management
+"https://github.com/igushev/IgushArray","Array with Constant Time Access and Fast Insertion and Deletion",igush-array
+"https://github.com/serhii-londar/open-source-mac-os-apps","List of open source applications for macOS",open-source-mac-os-apps
+"https://hechingerreport.org/opinion-separating-gifted-children-hasnt-led-to-better-acheivement/","Separating gifted children hasn't led to better achievement",opinion-separating-gifted-children-hasnt-led-to-better-acheivement
+"https://jvns.ca/blog/brag-documents/","Get your work recognized: write a brag document",brag-documents
+"https://learningmusic.ableton.com/","Get Started Making Music",learning-music
+"https://milapneupane.com.np/2019/07/06/learning-golang-from-zero-to-hero/","Learning Golang – From Zero to Hero",learning-golang-from-zero-to-hero
+"https://pomb.us/build-your-own-react/","Build Your Own React",build-your-own-react
+"https://technicshistory.wordpress.com/2019/07/10/arpanet-part-3-the-subnet/","Arpanet Part 3: The Subnet",arpanet-part-3-the-subnet
+"https://viewsourcecode.org/snaptoken/kilo/index.html","Build Your Own Text Editor",build-your-own-text-editor
+"https://www.espn.com/espn/story/_/id/27593253/why-grandmasters-magnus-carlsen-fabiano-caruana-lose-weight-playing-chess","The grandmaster diet: How to lose weight while barely moving",why-grandmasters-magnus-carlsen-fabiano-caruana-lose-weight-playing-chess
+"https://www.moderntreasury.com/journal/what-happens-when-you-ach-a-dead-person","What Happens When You ACH a Dead Person?",what-happens-when-you-ach-a-dead-person
+"https://www.nomachetejuggling.com/2019/06/03/dont-hire-assholes/","Assholes: A Probing Examination",dont-hire-assholes
+"https://www.thebroadcastbridge.com/content/entry/12400/the-lost-art-of-lacing-cable","The Lost Art of Lacing Cable",the-lost-art-of-lacing-cable
+"https://www.usb.org/document-library/usb4tm-specification","USB4 Specification",usb4tm-specification
+"https://acoup.blog/2019/05/10/collections-the-siege-of-gondor/","The Siege of Gondor",collections-the-siege-of-gondor
+"https://blog.acolyer.org/2019/11/25/mergeable-replicated-data-types-part-i/","Mergeable replicated data types – Part I",mergeable-replicated-data-types-part-i
+"https://blog.athrunen.dev/learning-hardware-programming-as-a-software-engineer/","Learning hardware programming as a software engineer",learning-hardware-programming-as-a-software-engineer
+"https://blog.stevensanderson.com/2019/11/18/2019-11-18-webwindow-a-cross-platform-webview-for-dotnet-core/","WebWindow",webwindow-a-cross-platform-webview-for-dotnet-core
+"https://blog.sumymus.de/palindrome-day-20200202","Palindrome Day 20200202",palindrome-day-20200202
+"https://buttondown.email/hillelwayne/archive/donald-knuth-was-framed/","Donald Knuth was framed",donald-knuth-was-framed
+"https://charemza.name/blog/posts/abstractions/http/http-guide-for-developers/","Mini HTTP Guide for Developers",http-guide-for-developers
+"https://gabrielgambetta.com/generic-search.html","Pathfinding Demystified",pathfinding-demystified
+"https://github.com/arjun024/mkernel","Learn to write your first OS kernel",learn-write-first-os-kernel
+"https://interpreterbook.com/","Writing An Interpreter In Go",writing-an-interpreter
+"https://medium.com/@joshahowarth/how-my-show-hn-project-got-acquired-after-6-months-954f81ca6a18","My Show HN Project got acquired after 6 months",how-my-show-hn-project-got-acquired-after-6-months
+"https://observablehq.com/@mourner/kinematics-of-reverse-angle-parking","Kinematics of Reverse Angle Parking",kinematics-of-reverse-angle-parking
+"https://wh0.github.io/2020/01/02/scissors.html","Which Emoji Scissors Close?",emoji-scissors-close
+"https://www.eatthismuch.com/","Eat This Much – Automatic Meal Planner",eat-this-much
+"https://www.hyperscan.io/","Hyperscan: High-performance multiple regex matching library from Intel",hyperscan-from-intel
+"https://www.thirtythreeforty.net/posts/2019/12/my-business-card-runs-linux/","My Business Card Runs Linux",my-business-card-runs-linux
+"https://www.tiny.cloud/blog/real-time-collaboration-ot-vs-crdt/","OT and CRDT trade-offs for Real-Time collaboration",real-time-collaboration-ot-vs-crdt
+"https://www.wired.com/story/collaborative-software-wary-cloud/","Collaborative Software That’s Wary of the Cloud",collaborative-software-wary-cloud
+"http://brettcvz.com/projects/6-upnext","UpNext – an ePaper digital calendar for your desk",upnext-epaper-digital-calendar
+"http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html","Let's make a Teeny Tiny compiler",teeny-tiny-compiler
+"https://0x90.psaux.io/2020/03/01/Taking-Back-What-Is-Already-Yours-Router-Wars-Episode-I/","A detailed look at the router provided by my ISP",Taking-Back-What-Is-Already-Yours-Router-Wars-Episode-I
+"https://arxiv.org/abs/2004.05074","Paxos vs. Raft: Have we reached consensus on distributed consensus?",arxiv-2004-05074
+"https://arxiv.org/abs/2004.13204","Graph2Plan: Learning Floorplan Generation from Layout Graphs",arxiv-2004-13204
+"https://bionic.fullstory.com/rust-at-fullstory-part-2/","How we use Rust in our mobile SDK",rust-at-fullstory-part-2
+"https://bits.houmus.org/2020-02-02/this-goes-to-eleven-pt5","Decimating Array.Sort with AVX2",this-goes-to-eleven-pt5
+"https://github.com/lemmy/BlockingQueue","A walkthrough tutorial of TLA+ and its tools: analyzing a blocking queue",tla-analysis-of-blocking-queue
+"https://healeycodes.com/hacking-together-an-e-ink-dashboard/","Hacking Together an E-ink Dashboard",hacking-together-an-e-ink-dashboard
+"https://paperswithcode.com/","Papers with Code",papers-with-code
+"https://pudding.cool/2020/05/wrestling","An Illustrated Guide to Masked Wrestlers",guide-to-masked-wrestling
+"https://rsms.me/sol-a-sunny-little-virtual-machine","Sol – a sunny little virtual machine",sol-a-sunny-little-virtual-machine
+"https://saagarjha.com/blog/2020/05/10/why-we-at-famous-company-switched-to-hyped-technology/","We at $Famous_company switched to $Hyped_technology",why-we-at-famous-company-switched-to-hyped-technology
+"https://www.garrensmith.com/blogs/mini-couch-hack-week","MiniCouchDB in Rust",mini-couch-hack-week
+"https://www.lennyrachitsky.com/p/how-the-biggest-consumer-apps-got","How the biggest consumer apps got their first 1k users",how-the-biggest-consumer-apps-got-first-1k-users
+"https://www.nytimes.com/2020/04/09/magazine/weird-al-yankovic.html","The Weirdly Enduring Appeal of Weird Al Yankovic",appeal-of-weird-al-yankovic
+"https://www.wired.co.uk/article/dropshipping-instagram-ads","Inside the weird get-rich-quick world of dropshipping",dropshipping-instagram-ads
+"https://zserge.com/posts/jvm/","How to write a toy JVM",write-a-toy-jvm
+"https://blogs.oracle.com/javamagazine/the-top-25-greatest-java-apps-ever-written","Greatest Java apps",the-top-25-greatest-java-apps-ever-written
+"https://eev.ee/blog/2020/02/01/old-css-new-css/","Old CSS New CSS",old-css-new-css
+"https://gekk.info/articles/explorer.html","Windows Explorer Through the Years",explorer-through-the-years
+"https://googleprojectzero.blogspot.com/2020/07/how-to-unc0ver-0-day-in-4-hours-or-less.html","How to unc0ver a 0-day in 4 hours or less",how-to-unc0ver-0-day-in-4-hours-or-less
+"https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/","A crash course in just-in-time compilers",a-crash-course-in-just-in-time-jit-compilers
+"https://lars.hupel.info/topics/crdt/01-intro.html","An Introduction to Conflict-Free Replicated Data Types",intro-to-conflict-free-data-types
+"https://mabez.dev/blog/posts/esp32-rust/","Rust on the ESP32",esp32-rust
+"https://martin.kleppmann.com/2020/07/06/crdt-hard-parts-hydra.html","CRDTs: The Hard Parts",crdt-hard-parts-hydra
+"https://reasonablypolymorphic.com/blog/writing-technical-posts/","How to write technical posts so people will read them",writing-technical-posts
+"https://saltflats.com/stuck.htm","Bonneville can be a tough place",bonneville-salt-flats
+"https://shoelace.style/","Shoelace 2.0 release: UI toolkit that works with all frameworks or none at all",shoelace-style
+"https://standpointmag.co.uk/issues/may-june-2020/mozarts-infinite-riches/","Mozart’s Infinite Riches",mozarts-infinite-riches
+"https://svelte.dev/blog/svelte-and-typescript","Svelte and TypeScript",svelte-and-typescript
+"https://thomask.sdf.org/blog/2020/07/01/local-area-network-push-notifications.html","Local area network push notifications",local-area-network-push-notifications
+"https://www.causal.app/blog/whats-a-financial-statement","Financial Statements: A Beginner's Guide",whats-a-financial-statement
+"https://www.cl.cam.ac.uk/~mgk25/iso-paper.html","International Standard Paper Sizes",iso-paper-sizes
+"https://www.copetti.org/projects/consoles/xbox/","Xbox Architecture",xbox-architecture
+"https://www.otherhand.org/home-page/search-and-rescue/the-hunt-for-the-death-valley-germans/","The Hunt for the Death Valley Germans",the-hunt-for-the-death-valley-germans
+"https://0110.be/posts/Olaf_-_Acoustic_fingerprinting_on_the_ESP32_and_in_the_Browser","Olaf – Acoustic Fingerprinting on the ESP32 and in the Browser",Olaf-Acoustic_fingerprinting_on_the_ESP32_and_in_the_Browser
+"https://adlrocha.substack.com/p/adlrocha-hash-array-mapped-tries","Hash Array Mapped Tries (HAMT) to the Rescue",adlrocha-hash-array-mapped-tries
+"https://amanjain.substack.com/p/how-to-validate-your-startup-idea","How to validate your startup idea quickly",how-to-validate-your-startup-idea-quickly
+"https://archive.org/details/0022_Dont_Be_a_Sucker_22_33_53_00","Don't Be a Sucker",Dont_Be_a_Sucker
+"https://arxiv.org/abs/quant-ph/0510032","Kindergarten Quantum Mechanics",arxiv-0510032
+"https://blog.datawrapper.de/weeklychart-logscale/","How to Read a Log Scale",weeklychart-logscale
+"https://blog.kevinjahns.de/are-crdts-suitable-for-shared-editing/","Are CRDTs suitable for shared editing?",are-crdts-suitable-for-shared-editing
+"https://blog.logrocket.com/adding-directives-schema-code-first-graphql-servers/","Adding directives to the GraphQL schema when there's no SDL",adding-directives-schema-code-first-graphql-servers
+"https://github.com/codr7/liblg","A minimal stack based VM in C",stack-based-vm-in-c
+"https://github.com/jesseduffield/horcrux-ui","I made an app that lets you split a file into horcruxes",horcrux-ui
+"https://github.com/rossumur/espflix","A free video streaming service that runs on a ESP32",espflix
+"https://gopiandcode.uk/logs/log-bloomfilters-debunked.html","Bloom filters debunked: Dispelling 30 Years of bad math with Coq",log-bloomfilters-debunked
+"https://justinmeiners.github.io/lc3-vm/","Write Your Own Virtual Machine",write-your-own-virtual-machine
+"https://kripken.github.io/blog/wasm/2020/07/27/wasmboxc.html","WasmBoxC: Simple Easy and Fast VM-less Sandboxing",wasmboxc-vm-less-sandboxing
+"https://maraoz.com/2020/07/18/openai-gpt3/","OpenAI's GPT-3 may be the biggest thing since Bitcoin",openai-gpt3
+"https://onatm.dev/2020/08/10/let-s-implement-a-bloom-filter/","Let’s implement a Bloom Filter",lets-implement-a-bloom-filter
+"https://the-other-side.blog/upi-the-basics/","UPI: India's Unified Payments Interface",upi-the-basics
+"https://thehustle.co/meet-the-menu-engineers-helping-restaurants-retool-during-the-pandemic/","The “menu engineers” who optimize restaurant revenue",meet-the-menu-engineers-helping-restaurants-retool-during-the-pandemic
+"https://thume.ca/2020/09/04/macos-tips/","Hard to discover tips and apps for macOS",hard-to-discover-macos-tips
+"https://www.amazon.science/latest-news/machine-learning-course-free-online-from-amazon-machine-learning-university","Amazon's ML University is making its online courses available to the public",machine-learning-course-free-online-from-amazon-machine-learning-university
+"https://www.bvp.com/memos","Original Bessemer Investment Memos for Shopify",shopify-original-investment-memos
+"https://www.cnbc.com/2020/08/01/jpmorgan-chase-co-ceo-jamie-dimons-morning-routine.html","JPMorgan CEO Jamie Dimon’s morning routine: Wake up 5am and 'read tons of stuff'",jpmorgan-chase-co-ceo-jamie-dimons-morning-routine
+"https://www.inkandswitch.com/local-first.html","Local-first software",local-first-software
+"https://www.nytimes.com/2018/12/17/science/donald-knuth-computers-algorithms-programming.html","The Yoda of Silicon Valley",donald-knuth-computers-algorithms-programming
+"https://www.ycombinator.com/library","Y Combinator Startup Library 2.0",yc-startup-library-2
+"https://yurichev.org/1564f46f1c207b2dbc84a2bd4a41ed4c/RE4B-EN.pdf","Reverse Engineering for Beginners",Reverse-Engineering-for-Beginners
+"http://data.iana.org/TLD/tlds-alpha-by-domain.txt","List of All Current TLDs",tlds-alpha-by-domain
+"https://blog.cloudkernels.net/posts/firecracker-rpi4/","Porting Firecracker to a Raspberry Pi 4",firecracker-rpi4
+"https://cacm.acm.org/magazines/2020/9/246941-keeping-calm/fulltext","Keeping Calm: When Distributed Consistency Is Easy",Keeping-Calm-When-Distributed-Consistency-Is-Easy
+"https://catonmat.net/summary-of-mit-introduction-to-algorithms","Summary of all the MIT Introduction to Algorithms lectures",summary-of-mit-introduction-to-algorithms
+"https://github.com/microsoft/playwright-cli","Playwright CLI – Open/inspect/emulate pages",playwright-cli
+"https://gravitational.com/blog/how-oidc-authentication-works/","How OIDC Works",how-oidc-authentication-works
+"https://helenmin.com/blog/first-head-of-marketing","Hiring the first head of marketing at a startup",first-head-of-marketing
+"https://jaycarlson.net/embedded-linux/","So you want to build an embedded Linux system?",embedded-linux
+"https://josephg.com/blog/crdts-are-the-future/","CRDTs are the future",crdts-are-the-future
+"https://mango.pdf.zone/finding-former-australian-prime-minister-tony-abbotts-passport-number-on-instagram","When you browse Instagram and find Tony Abbott's passport number",finding-former-australian-prime-minister-tony-abbotts-passport-number-on-instagram
+"https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html","Structure and Interpretation of Computer Programs (SICP) Book",sicp-book-full
+"https://mmarchny.com/naming-branding/","Principles for Naming a Brand",naming-branding
+"https://product.hubspot.com/blog/g1gc-fundamentals-lessons-from-taming-garbage-collection","G1GC Fundamentals: Lessons from Taming Garbage Collection",g1gc-fundamentals-lessons-from-taming-garbage-collection
+"https://stackoverflow.blog/2020/10/12/how-to-put-machine-learning-models-into-production/","How to put machine learning models into production",how-to-put-machine-learning-models-into-production
+"https://thomasvilhena.com/2020/10/a-review-of-consensus-protocols","A Review of Consensus Protocols",a-review-of-consensus-protocols
+"https://www.lucaspauker.ml/articles/20","Timekeeping in Financial Exchanges",timekeeping-in-financial-exchanges
+"https://www.mathventurepartners.com/blog/2016/9/15/startup-financial-modeling-part-1-what-is-a-financial-model","Startup Financial Modeling: What is a Financial Model?",startup-financial-modeling-part-1-what-is-a-financial-model
+"https://www.npr.org/2020/09/15/913207918/how-to-say-no-for-the-people-pleaser-who-always-says-yes","How to say no",how-to-say-no-for-the-people-pleaser-who-always-says-yes
+"https://www.ockam.io/learn/blog/zero_ipo/","How to build an open source business",how-to-build-an-open-source-business
+"https://www.rs-online.com/designspark/a-pi-powered-plan-9-cluster","A Pi-Powered Plan 9 Cluster",a-pi-powered-plan-9-cluster
+"https://www.verica.io/the-chaos-engineering-book/","The Chaos Engineering Book",the-chaos-engineering-book
+"https://www.ycombinator.com/library/8d-how-to-build-a-great-series-a-pitch-and-deck","How to Build a Great Series A Pitch and Deck",how-to-build-a-great-series-a-pitch-and-deck
+"http://sarabee.github.io/2020/09/13/is-this-mahler/","Is this Mahler? This sounds like Mahler",is-this-mahler
+"http://thesecretlivesofdata.com/raft/","Raft Visualization",raft-visualization
+"https://blog.alexmaccaw.com/an-engineers-guide-to-stock-options","An Engineer’s Guide to Stock Options",an-engineers-guide-to-stock-options
+"https://blog.skylerlewis.io/2020/12/diy-dynamic-dns-using-netlify-api.html","DIY Dynamic DNS with Netlify API and Bash",diy-dynamic-dns-using-netlify-api
+"https://blog.ycombinator.com/startup-school-for-future-founders/","YC Startup School for future founders who aren't quite ready to start yet",startup-school-for-future-founders
+"https://dancres.github.io/Pages/","Distributed Systems Reading List",distributed-systems-reading-list
+"https://dev.l1x.be/posts/2020/11/22/getting-started-with-firecracker-on-raspberry-pi/","Getting Started with Firecracker on Raspberry Pi",getting-started-with-firecracker-on-raspberry-pi
+"https://ferd.ca/interval-tree-clocks.html","Interval Tree Clocks",interval-tree-clocks
+"https://github.com/cnlohr/channel3","Analog TV Station on ESP8266",analog-tv-station-esp8266
+"https://javascript.info/","A Modern JavaScript Tutorial",modern-javascript-tutorial
+"https://jon.bo/posts/digital-tools/","Digital Tools I Wish Existed",digital-tools-i-wish-existed
+"https://lord.io/blog/2020/spreadsheets/","How to Recalculate a Spreadsheet",recalculate-a-spreadsheet
+"https://martin.kleppmann.com/2020/12/02/bloom-filter-hash-graph-sync.html","Using Bloom filters to efficiently synchronise hash graphs",bloom-filter-hash-graph-sync
+"https://refactoringui.com/previews/building-your-color-palette/","Building Your Color Palette",building-your-color-palette
+"https://sequoia.makes.software/parsing-json-at-the-cli-a-practical-introduction-to-jq-and-more/","Parsing JSON at the CLI: A Practical Introduction to jq and more",parsing-json-at-the-cli-a-practical-introduction-to-jq-and-more
+"https://standardebooks.org/","Free and liberated e-books",standard-ebooks-org
+"https://withcompound.com/r/equity-guide-to-fast-growing-companies","Equity guide for employees at fast-growing companies",equity-guide-to-fast-growing-companies
+"https://wundergraph.com/blog/why_not_use_graphql","Why not use GraphQL?",why_not_use_graphql
+"https://www.bbc.com/news/magazine-13194733","Casio F-91W: The strangely ubiquitous watch",casio-f91w-ubiquitous-watch
+"https://www.cia.gov/library/readingroom/docs/CIA-RDP79B00752A000300070001-8.pdf","The Adam and Eve Story",adam-and-eve-story
+"https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/","Advanced Compilers: Self-Guided Online Course",advanced-compilers-self-guided-course
+"https://www.filfre.net/2020/12/lode-runner/","Lode Runner",lode-runner
+"https://www.sentiatechblog.com/aws-re-invent-2020-day-3-optimizing-lambda-cost-with-multi-threading","Optimizing Lambda Cost with Multi-Threading",aws-re-invent-2020-day-3-optimizing-lambda-cost-with-multi-threading
+"https://www.talkinsaasy.com/saasy-math","SaaSy Math: A Resource of SaaS Metrics for Your Startup",saasy-math-saas-metrics
+"http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html","Using GNU Stow to manage your dotfiles",using-gnu-stow-to-manage-your-dotfiles
+"http://catern.com/run.html","You need to be able to run your system",You-need-to-be-able-to-run-your-system
+"http://phrack.org/archives/issues/49/14.txt","Smashing the Stack for Fun and Profit",stack-smashing-fun-and-profit
+"https://andreabergia.com/stack-based-virtual-machines/","Stack Based Virtual Machines",stack-based-virtual-machines
+"https://artofmemory.com/files/forum/1183/divideandlink_0.pdf","Memory Techniques from Vedic Learning",Memory-Techniques-from-Vedic-Learning
