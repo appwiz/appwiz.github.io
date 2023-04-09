@@ -8,7 +8,7 @@ body:
   - type: input
     id: url
     attributes:
-      label: url
+      label: URL
       description: URL where this article is located.
       placeholder: ex. https://example.com 
     validations:
@@ -16,7 +16,7 @@ body:
   - type: input
     id: slug
     attributes:
-      label: slug
+      label: Slug
       description: A slug for this article.
       placeholder: ex. an-interesting-link
     validations:
