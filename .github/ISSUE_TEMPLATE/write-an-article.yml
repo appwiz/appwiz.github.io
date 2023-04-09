@@ -1,0 +1,18 @@
+name: Write an article
+description: Write a longform article.
+title: ""
+labels: ["article"]
+assignees:
+  - appwiz
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for writing an article.
+  - type: textarea
+    id: article-content
+    attributes:
+      label: content
+      description: Content
+    validations:
+      required: true
