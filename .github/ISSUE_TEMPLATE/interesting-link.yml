@@ -1,26 +1,14 @@
 name: Interesting Link
 description: Share an interesting link
-title: "[TITLE]: "
+title: "[URL]: "
 labels: ["link"]
 assignees:
   - appwiz
 body:
-  - type: input
-    id: url
+  - type: markdown
     attributes:
-      label: URL
-      description: URL where this article is located.
-      placeholder: ex. https://example.com 
-    validations:
-      required: true
-  - type: input
-    id: slug
-    attributes:
-      label: Slug
-      description: A slug for this article.
-      placeholder: ex. an-interesting-link
-    validations:
-      required: true
+      value: |
+        We'll attempt to automatically extract the title and slug when we build the site.
   - type: textarea
     id: commentary
     attributes:
