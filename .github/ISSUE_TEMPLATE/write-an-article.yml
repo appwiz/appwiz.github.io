@@ -1,6 +1,5 @@
 name: Write an article
 description: Write a longform article.
-title: ""
 labels: ["article"]
 assignees:
   - appwiz
