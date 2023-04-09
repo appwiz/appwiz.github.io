@@ -1,0 +1,29 @@
+name: Interesting Link
+description: Share an interesting link
+title: "[TITLE]: "
+labels: ["link"]
+assignees:
+  - appwiz
+body:
+  - type: input
+    id: url
+    attributes:
+      label: url
+      description: URL where this article is located.
+      placeholder: ex. https://example.com 
+    validations:
+      required: true
+  - type: input
+    id: slug
+    attributes:
+      label: slug
+      description: A slug for this article.
+      placeholder: ex. an-interesting-link
+    validations:
+      required: true
+  - type: textarea
+    id: commentary
+    attributes:
+      label: Commentary
+      description: Additional commentary about this link
+      render: markdown
