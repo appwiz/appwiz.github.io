@@ -1,6 +1,6 @@
 name: Interesting Link
 description: Share an interesting link
-title: "[URL]: "
+title: ""
 labels: ["link"]
 assignees:
   - appwiz
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        We'll attempt to automatically extract the title and slug when we build the site.
+        Paste your link in the issue title. We'll attempt to automatically extract the title and slug when we build the site.
   - type: textarea
     id: commentary
     attributes:
