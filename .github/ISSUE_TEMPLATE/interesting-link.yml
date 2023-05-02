@@ -1,6 +1,5 @@
 name: Interesting Link
 description: Share an interesting link
-title: "url- "
 labels: ["link"]
 assignees:
   - appwiz
