@@ -4,11 +4,7 @@ import csv
 
 def write_html_file(template, url, title, slug):
     filename = slug + '.html'
-    content = 'Please follow <a href="%URL%">%TITLE%</a>'
-    content = content.replace('%URL%', url)
-    content = content.replace('%TITLE%', title)
-
-    template = template.replace('%CONTENT%', content)
+    template = template.replace('%URL%', url)
     template = template.replace('%TITLE%', title)
     
     write_file(template, filename)
@@ -24,7 +20,6 @@ def read_file(filename):
 
 def main(filename='input.csv'):
     link_template = read_file('link.template')
-    input_template = read_file('input.csv.template')
 
     o = []
 
