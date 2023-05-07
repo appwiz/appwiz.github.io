@@ -1,8 +1,8 @@
 import random
 import sys
+import csv
 
-# write title to file
-def write_file(template, url, title, slug):
+def write_html_file(template, url, title, slug):
     filename = slug + '.html'
     content = 'Please follow <a href="%URL%">%TITLE%</a>'
     content = content.replace('%URL%', url)
@@ -10,49 +10,61 @@ def write_file(template, url, title, slug):
 
     template = template.replace('%CONTENT%', content)
     template = template.replace('%TITLE%', title)
+    
+    write_file(template, filename)
 
+def write_file(template, filename):
     with open(filename, 'w') as f:
         f.write(template)
         f.flush()
-
-def read_csv(filename):
-    with open(filename, 'r') as f:
-        return f.readlines()
 
 def read_file(filename):
     with open(filename, 'r') as f:
         return f.read()
 
 def main(filename='input.csv'):
-    print(filename)
-    lines = read_csv(filename)
-    template = read_file('link.template')
+    link_template = read_file('link.template')
+    input_template = read_file('input.csv.template')
 
     o = []
-    for line in lines:
-        print(line)
+
+    rows = 0
+    skipped_rows_comments = 0
+    skipped_rows_empty = 0
+
+    with open(filename, 'r') as f:
+        reader = csv.reader(f, delimiter=',', quotechar='"')
         
-        if line.startswith('#'):
-            continue
+        for row in reader:
+            rows += 1
 
-        if line.strip() == '':
-            continue
+            if row[0].startswith('#'):
+                skipped_rows_comments += 1
+                continue
+            
+            if row[0].strip() == '':
+                skipped_rows_empty += 1
+                continue
 
-        (url, title, slug) = line.split(',')
-        url = url.replace('"', '')
-        title = title.replace('"', '')
-        slug = slug.strip().lower().replace('"', '').replace('_', '-')
+            (url, title, slug) = row
 
-        o.append('<li><a href="%SLUG%.html">%TITLE%</a></li>'.replace('%SLUG%', slug).replace('%TITLE%', title))
+            url = url.strip().lower().replace('"', "").strip()
+            title = title.strip()
+            slug = slug.strip().lower().replace('"', "").replace('_', '-').strip()
 
-        write_file(template, url, title, slug)
+            o.append('<li><a href="%SLUG%.html">%TITLE%</a></li>'.replace('%SLUG%', slug).replace('%TITLE%', title))
+
+            write_html_file(link_template, url, title, slug)
 
     random.shuffle(o)
+
+    print('rows: %d' % rows)
+    print('skipped_blank: %d' % skipped_rows_empty)
+    print('skipped_comments: %d' % skipped_rows_comments)
 
     for x in o:
         print(x)
 
-# python main method
 if __name__ == "__main__":
     main(sys.argv[1])
 
