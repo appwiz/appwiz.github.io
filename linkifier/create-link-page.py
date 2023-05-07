@@ -18,6 +18,7 @@ def read_file(filename):
     with open(filename, 'r') as f:
         return f.read()
 
+# for i in `ls *.html.original.html | grep -v index`; do python3 linkifier/extract-to-input.py $i >> linkifier/input.csv; done;
 def main(filename='input.csv'):
     link_template = read_file('link.template')
 
@@ -26,6 +27,7 @@ def main(filename='input.csv'):
     rows = 0
     skipped_rows_comments = 0
     skipped_rows_empty = 0
+    skipped_no_url = 0
 
     with open(filename, 'r') as f:
         reader = csv.reader(f, delimiter=',', quotechar='"')
@@ -33,12 +35,16 @@ def main(filename='input.csv'):
         for row in reader:
             rows += 1
 
-            if row[0].startswith('#'):
-                skipped_rows_comments += 1
-                continue
-            
             if row[0].strip() == '':
                 skipped_rows_empty += 1
+                continue
+
+            if row[0].strip().startswith('#'):
+                skipped_rows_comments += 1
+                continue
+
+            if row[0].strip() == 'NO_URL_FOUND':
+                skipped_no_url += 1
                 continue
 
             (url, title, slug) = row
@@ -56,6 +62,7 @@ def main(filename='input.csv'):
     print('rows: %d' % rows)
     print('skipped_blank: %d' % skipped_rows_empty)
     print('skipped_comments: %d' % skipped_rows_comments)
+    print('skipped_no_url: %d' % skipped_no_url)
 
     for x in o:
         print(x)

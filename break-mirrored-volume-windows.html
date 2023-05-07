@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>rohand.com</title>
     <meta name="author" content="Rohan Deshpande">
-    <meta name="title" content="rohand.com">
+    <meta name="title" content="Break a mirrored volume in Windows 2008 R2">
+    <title>Rohan Deshpande &raquo; Break a mirrored volume in Windows 2008 R2</title>
 </head>
 <body>
     <header>
@@ -18,17 +18,10 @@
     <section>
         <article>
             <h1>Break a mirrored volume in Windows 2008 R2</h1>
-            <p>My Windows 2008 R2 Hyper-V server has two <a href="https://learn.microsoft.com/en-us/previous-versions/tn-archive/dd163552(v=technet.10)?redirectedfrom=MSDN">dynamic disks</a> in a mirrored configuration that I wanted to split into the separate disks.</p>
-            <img src="pix/diskmgmt-volumes.jpg" alt="Disk Management list volumes" />
-            <p>You can accomplish this from the command line using the <a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770877(v=ws.10)?redirectedfrom=MSDN">diskpart</a> tool. However, since this was my first time, I decided to play it safe and use the Disk Management Console.</p>
-            <p>First, I backed up all data on the mirrored volume. All information and advice I got suggested that I would not lose data but why take chances? It took approximately 4 hours to backup 400 GB.</p>
-            <p>Next, right click the mirrored volume. <strong>Remove Mirror</strong> lets you remove a disk from the mirror. <strong>Break Mirrored Volume</strong> destroys the mirroring and you lose redundancy. Data is retained on both disks that made up the mirror.</p>
-            <img src="pix/diskmgmt-menu.jpg" alt="Disk Management context menu" />
-            <p>Select <strong>Break Mirrored Volume...</strong></p>
-            <img src="pix/diskmgmt-warning.jpg" alt="Disk Management prompt" />
-            <p>Say <strong>Yes</strong></p>
-            <img src="pix/diskmgmt-post-split.jpg" alt="Post disk split" />
-            <p>Windows churns away for a few seconds and then I get my two separate disks. All data that existed in the mirror is available on both disks.</p>
+            <p><em>Original article is at <a target="_blank" href="https://learn.microsoft.com/en-us/previous-versions/tn-archive/dd163552(v=technet.10)?redirectedfrom=msdn">Break a mirrored volume in Windows 2008 R2</a></em></p>
+            <blockquote>
+                <p></p>
+            </blockquote>
         </article>
     </section>
     <footer>
