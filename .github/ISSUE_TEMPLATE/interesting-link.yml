@@ -13,4 +13,4 @@ body:
     attributes:
       label: Commentary
       description: Additional commentary about this link
-      render: markdown
+      render: Markdown
