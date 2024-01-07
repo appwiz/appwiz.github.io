@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Script to change footer for site in multiple git repos &raquo; Rohan Deshpande | rohand.com</title>
+    <meta name="author" content="Rohan Deshpande">
+    <meta name="title" content="robocopy">
+</head>
+<body>
+    <header>
+        <a href="index.html">home</a>
+        <a href="to-github.html">github</a>
+        <a href="to-twitter.html">twitter</a>
+        <a href="to-linkedin.html">linkedin</a>
+        <a href="inbox.html">inbox</a>
+        [<a target="_blank" rel="noopener noreferrer" href="https://github.com/appwiz/appwiz.github.io/edit/main/change-site-footer.html"><small>edit page</small></a>]
+        <hr />
+    </header>
+    <section>
+        <article>
+            <h1>Script to change footer for sites in multiple git repos</h1>
+            <p>I have several static sites and the content is in separate GitHub repositories. Each site has a footer with a copyright date. I wrote a script to update this copyright date.</p>
+
+            <p><pre>
+    # need the gh cli and jq
+    brew install gh jq
+
+    ORG=my-org
+
+    # get names only of all site repos
+    gh repo list --topic website --json name | jq ".[].name" -r > /tmp/repos.txt
+
+    for i in `cat /tmp/repos.txt`; do 
+        echo $i
+
+        # checkout each repo to local
+        cd /tmp
+        gh repo clone $ORG/$i
+        cd /tmp/$i
+
+        # change the copyright footer and commit and store in a temp file
+        sed "s/2023/2024/g" index.html > index2.html
+        
+        # swap into the correct file
+        mv index2.html index.html
+
+        # commit and push
+        git commit -am "Extend copyright into 2024"                    
+        git push
+        
+        cd /tmp 
+
+        # cleanup the local repo
+        rm -rf /tmp/$i
+    done;
+
+    # cleanup the list of repos
+    rm -rf /tmp/repos.txt
+            </pre></p>
+            <p>I learned about <a target="_blank" rel="noopener noreferrer" href="https://joeyh.name/code/moreutils/"><code>sponge</code></a> a few days after using this script.</p>
+        </article>
+    </section>
+    <footer>
+        <hr />
+        <p>&copy; 2005-2024 Rohan Deshpande. All rights reserved. Licensed under <a target="_blank" rel="noopener noreferrer" href="to-cc.html">CC BY-ND 4.0</a>.</p>
+    </footer>
+</body>
+</html>
