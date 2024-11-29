@@ -9,11 +9,6 @@ body:
     attributes:
       label: URL
       description: URL for this link
-  - type: input
-    id: friendly-title
-    attributes:
-      label: Friendly Title
-      description: A descriptive title for this link
   - type: textarea
     id: commentary
     attributes:
