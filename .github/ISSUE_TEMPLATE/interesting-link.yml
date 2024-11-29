@@ -4,10 +4,6 @@ labels: ["link-with-title"]
 assignees:
   - appwiz
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Paste your link in the issue title. We'll attempt to automatically extract the title and slug when we build the site.
   - type: input
     id: url
     attributes:
