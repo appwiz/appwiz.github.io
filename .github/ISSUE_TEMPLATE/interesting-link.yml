@@ -1,6 +1,6 @@
 name: Interesting Link
 description: Share an interesting link
-labels: ["link"]
+labels: ["link-with-title"]
 assignees:
   - appwiz
 body:
@@ -8,6 +8,12 @@ body:
     attributes:
       value: |
         Paste your link in the issue title. We'll attempt to automatically extract the title and slug when we build the site.
+  - type: textarea
+    id: friendly-title
+    attributes:
+      label: Friendly Title
+      description: A descriptive title for this link
+      render: Markdown
   - type: textarea
     id: commentary
     attributes:
