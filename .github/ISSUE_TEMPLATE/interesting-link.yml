@@ -9,6 +9,8 @@ body:
     attributes:
       label: URL
       description: URL for this link
+    validations:
+      required: true
   - type: textarea
     id: commentary
     attributes:
