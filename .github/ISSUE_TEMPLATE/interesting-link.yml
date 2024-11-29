@@ -8,12 +8,16 @@ body:
     attributes:
       value: |
         Paste your link in the issue title. We'll attempt to automatically extract the title and slug when we build the site.
-  - type: textarea
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: URL for this link
+  - type: input
     id: friendly-title
     attributes:
       label: Friendly Title
       description: A descriptive title for this link
-      render: Markdown
   - type: textarea
     id: commentary
     attributes:
