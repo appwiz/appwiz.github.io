@@ -5,14 +5,14 @@ assignees:
   - appwiz
 body:
   - type: input
-    id: url
+    id: link-url
     attributes:
       label: URL
       description: URL for this link
     validations:
       required: true
   - type: textarea
-    id: commentary
+    id: link-commentary
     attributes:
       label: Commentary
       description: Additional commentary about this link
