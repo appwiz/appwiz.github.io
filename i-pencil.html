@@ -5,22 +5,39 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="author" content="Rohan Deshpande">
     <meta name="title" content="I, Pencil">
+    <meta name="description" content="Personal website of Rohan Deshpande with articles and links">
     <title>I, Pencil &raquo; Rohan Deshpande | rohand.com</title>
+    <style>
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            padding: 8px;
+            z-index: 100;
+        }
+        .skip-link:focus {
+            top: 0;
+        }
+        a:focus, button:focus {
+            outline: 2px solid #0066cc;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <a href="index.html">home</a>
-        <a href="to-github.html">github</a>
-        <a href="to-twitter.html">twitter</a>
-        <a href="to-linkedin.html">linkedin</a>
-        <a href="inbox.html">inbox</a>
-        [<a target="_blank" rel="noopener noreferrer" href="https://github.com/appwiz/appwiz.github.io/edit/main/i-pencil.html"><small>edit page</small></a>]
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header role="banner">
+        <a href="index.html" aria-label="Home page">home</a>
+        <a href="to-github.html" aria-label="GitHub profile">github</a>
+        <a href="to-twitter.html" aria-label="Twitter profile">twitter</a>
+        <a href="to-linkedin.html" aria-label="LinkedIn profile">linkedin</a>
+        <a href="inbox.html" aria-label="Inbox page">inbox</a>
+        [<a target="_blank" rel="noopener noreferrer" href="https://github.com/appwiz/appwiz.github.io/edit/main/i-pencil.html" aria-label="Edit this page on GitHub"><small>edit page</small></a>]
         <hr />
     </header>
-    <section>
+    <section id="main-content" role="main">
         <article>
             <h1>I, Pencil</h1>
-            <p><em>Original article is at <a target="_blank" rel="noopener noreferrer" href="https://fee.org/resources/i-pencil/">I, Pencil</a></em></p>
+            <p><em>Original article is at <a target="_blank" rel="noopener noreferrer" href="https://fee.org/resources/i-pencil/" aria-label="I, Pencil (opens in new window)">I, Pencil</a></em></p>
             <blockquote>
                 <p>"I, Pencil" is an essay written by Leonard E. Read in 1958 that personifies a simple pencil to illustrate the complexity and interdependence of the global market system. The essay emphasizes the importance of voluntary cooperation and the division of labor in creating products that most people take for granted.</p>
                 <p>The pencil narrates its own creation story, explaining that no single person knows how to make a pencil from scratch. The process involves countless individuals performing specialized tasks, such as harvesting cedar trees for the wooden casing, mining graphite for the core, and refining petroleum for the eraser. Each component has its own intricate supply chain, which extends across multiple countries and industries.</p>
@@ -29,9 +46,9 @@
             </blockquote>
         </article>
     </section>
-    <footer>
+    <footer role="contentinfo">
         <hr />
-        <p>&copy; 2005-2025 Rohan Deshpande. All rights reserved. Licensed under <a target="_blank" rel="noopener noreferrer" href="to-cc.html">CC BY-ND 4.0</a>.</p>
+        <p>&copy; 2005-2025 Rohan Deshpande. All rights reserved. Licensed under <a target="_blank" rel="noopener noreferrer" href="to-cc.html" aria-label="Creative Commons BY-ND 4.0 license">CC BY-ND 4.0</a>.</p>
     </footer>
 </body>
 </html>
